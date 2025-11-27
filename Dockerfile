@@ -1,4 +1,4 @@
-ARG BASE_IMAGE
+ARG BASE_IMAGE=ghcr.io/loong64/musllinux_1_2_loongarch64:latest
 FROM ${BASE_IMAGE}
 
 ARG RUNNER_ARCH
